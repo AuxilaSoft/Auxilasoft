@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Enable static export
+  basePath: '/Auxilasoft', 
   images: {
     domains: ["localhost"],
     remotePatterns: [
