@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // Enable static export
-  basePath: '/Auxilasoft', 
+  basePath: '/Auxilasoft', // Must match your repository name
   images: {
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
+    unoptimized: true, // Disable image optimization for static export
   },
 };
 
