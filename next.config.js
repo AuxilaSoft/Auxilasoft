@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // Enable static export
-  basePath: '', // Must match your repository name
+  basePath: '/Auxilasoft', // Must match your repository name
   images: {
-    unoptimized: true, // Disable image optimization for static export
+    unoptimized: false, // Disable image optimization for static export
   },
 };
 
