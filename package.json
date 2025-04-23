@@ -1,6 +1,6 @@
 {
   "name": "startup-nextjs-template",
-  "homepage": "https://AuxilaSoft.github.io/Auxilasoft",
+  "homepage": "https://auxilasoft.github.io/Auxilasoft/",
   "version": "0.2.0",
   "private": false,
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --nojekyll --cname https://auxilasoft.github.io/Auxilasoft"
   },
   "dependencies": {
     "eslint": "8.33.0",
