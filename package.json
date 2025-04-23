@@ -2,7 +2,7 @@
   "name": "startup-nextjs-template",
   "homepage": "https://AuxilaSoft.github.io/Auxilasoft",
   "version": "0.2.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
