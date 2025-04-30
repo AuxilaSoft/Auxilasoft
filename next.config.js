@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/Auxilasoft', // Must match your repository name
   assetPrefix: '/Auxilasoft',
   images: {
-    unoptimized: false, // Disable image optimization for static export
+    unoptimized: true, // Disable image optimization for static export
   },
 };
 
