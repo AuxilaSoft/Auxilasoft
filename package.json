@@ -1,6 +1,6 @@
 {
   "name": "startup-nextjs-template",
-  "homepage": "https://auxilasoft.github.io/Auxilasoft/",
+  "homepage": "https://AuxilaSoft.github.io/Auxilasoft",
   "version": "0.2.0",
   "private": false,
   "scripts": {
@@ -12,11 +12,14 @@
     "deploy": "gh-pages -d out --nojekyll --cname https://auxilasoft.github.io/Auxilasoft"
   },
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "lucide-react": "^0.509.0",
     "next": "^13.5.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^18.2.0",
     "react-modal-video": "^2.0.0"
   },
@@ -29,7 +32,7 @@
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "s": "^1.0.0",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.2.2"
   }
 }
