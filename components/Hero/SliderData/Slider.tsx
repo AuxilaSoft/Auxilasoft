@@ -8,9 +8,9 @@ import image3 from "/images/logo/Logo-Main.svg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  { src: "/videos/SliderVideo1.mp4" },
-  { src: "/videos/SliderVideo2.mp4" },
-  { src: "/videos/SliderVideo3.mp4" },
+  { src: "./videos/SliderVideo1.mp4" },
+  { src: "./videos/SliderVideo2.mp4" },
+  { src: "./videos/SliderVideo3.mp4" },
 ];
 
 const headings = [
