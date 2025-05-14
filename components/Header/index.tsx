@@ -49,7 +49,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-2">
+            <div className="w-60 max-w-full px-2 mr-6">
               <Link
                 href="/"
                 className={`header-logo flex items-center block w-full ${
@@ -70,7 +70,7 @@ const Header = () => {
                   height={20}
                   className="hidden dark:block"
                 />
-               <h1>AuxilaSoft</h1>
+               <h1 className="text-xl font-bold text-black dark:text-white">AuxilaSoft</h1>
               </Link>
               
             </div>

@@ -13,21 +13,22 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-8 flex items-center inline-block">
                   <Image
-                    src="./images/logo/logo-2.svg"
+                    src="./images/logo/Logo-Main.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    className="dark:hidden"
+                    width={150}
+                  height={20}
                   />
                   <Image
-                    src="./images/logo/logo.svg"
+                    src="./images/logo/Logo-Main.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    className="hidden dark:block"
+                    width={150}
+                  height={20}
                   />
+                  <h1 className="text-xl font-bold text-black dark:text-white">AuxilaSoft</h1>
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

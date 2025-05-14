@@ -33,3 +33,14 @@
 }
 
 
+.bg-primary {
+  background-color: #5de0e5;
+}
+
+.bg-primary {
+  background-color: #0a89a1;
+}
+.text-primary {
+    --tw-text-opacity: 1;
+    color: #5de0e5;
+}
