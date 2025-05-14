@@ -65,8 +65,8 @@ export default function Slider(): JSX.Element {
     setIsHovered(false);
   };
   return (
-    <div className="relative mx-auto mt-0 w-full">
-      <div className={`group relative h-[460px] transition-opacity duration-500 ${
+    <div className="relative mx-auto mt-0 w-full ">
+      <div className={`group relative h-[560px] transition-opacity duration-500 ${
           isTransitioning ? "opacity-0" : "opacity-100"
         } `}>
          {/* Video Background */}
@@ -86,7 +86,7 @@ export default function Slider(): JSX.Element {
         <div className="absolute left-0 top-0 h-full w-full bg-black bg-opacity-50"></div>
 
         {/* Text Content */}
-        <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
+        <div className="relative z-10 flex h-full flex-col items-center justify-center px-10 text-center text-white">
           <h1 className="mb-4 text-4xl font-bold">
             {headings[currentIndex].h1}
           </h1>
@@ -94,7 +94,7 @@ export default function Slider(): JSX.Element {
         </div>
       </div>
        <button
-        className="group z-20 absolute left-0 top-1/2 mx-1 -mt-[14px] h-[459px] -translate-y-1/2 transform bg-transparent p-2 text-white hover:bg-[#1a222f]"
+        className="group z-20 absolute left-0 top-1/2 mx-1 mt-[40px] h-[420px] -translate-y-1/2 transform bg-transparent p-2 text-white hover:bg-[#1a222f]"
         onClick={prevSlide}  onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
       style={{ opacity: 0.6 }}
@@ -102,14 +102,14 @@ export default function Slider(): JSX.Element {
         <ChevronLeft className="text-gray-400 group-hover:text-white" />
       </button>
       <button
-        className="group z-20 absolute right-0 top-1/2 mx-1 -mt-[14px] h-[459px] -translate-y-1/2 transform bg-transparent p-2 text-white hover:bg-[#1a222f]"
+        className="group z-20 absolute right-0 top-1/2 mx-1 mt-[40px] h-[420px] -translate-y-1/2 transform bg-transparent p-2 text-white hover:bg-[#1a222f]"
         onClick={nextSlide}  onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
       style={{ opacity: 0.6 }}
       >
         <ChevronRight className="text-gray-400 group-hover:text-white" />
       </button> 
-       <div className="mt-6 flex justify-center">
+       {/* <div className="flex justify-center">
         {images.map((_, index) => (
           <div
             key={index}
@@ -120,7 +120,7 @@ export default function Slider(): JSX.Element {
             } transition-all duration-500 ease-in-out`}
           ></div>
         ))}
-      </div> 
+      </div>  */}
     </div>
   );
 }
